@@ -5,10 +5,10 @@ from mfrc522 import SimpleMFRC522
 import mysql.connector
 
 db = mysql.connector.connect(
-  host="cs2s.yorkdc.net",
-  user="ashlee.w",
-  passwd="X9GQ3STN",
-  database="ashleewilliamson_attend"
+  host="",
+  user="",
+  passwd="",
+  database=""
 )
 
 cursor = db.cursor()
