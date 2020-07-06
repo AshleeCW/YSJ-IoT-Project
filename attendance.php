@@ -37,10 +37,10 @@
                 </tr>
             </thead>
 		<?php
-        $servername = "cs2s.yorkdc.net";
-$username = "ashlee.w";
-$password = "X9GQ3STN";
-$database = "ashleewilliamson_attend";
+        $servername = "";
+$username = "";
+$password = "";
+$database = "";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
           	$sql = "SELECT id, user_id, sign_in FROM attendance";
