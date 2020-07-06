@@ -2,10 +2,10 @@ import mysql.connector
 from mysql.connector import Error
 
 try:
-    connection = mysql.connector.connect(host='cs2s.yorkdc.net',
-                                         database='ashleewilliamson_attend',
-                                         user='ashlee.w',
-                                         password='X9GQ3STN')
+    connection = mysql.connector.connect(host='',
+                                         database='',
+                                         user='',
+                                         password='')
 
     sql_select_Query = "SELECT * from users"
     cursor = connection.cursor()
